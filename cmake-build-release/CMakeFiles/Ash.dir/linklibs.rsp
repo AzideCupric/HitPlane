@@ -1,0 +1,1 @@
+ E:/Azide/SFML-MinGW/lib/libsfml-audio.a E:/Azide/SFML-MinGW/lib/libsfml-network.a E:/Azide/SFML-MinGW/lib/libsfml-graphics.a E:/Azide/SFML-MinGW/lib/libsfml-window.a E:/Azide/SFML-MinGW/lib/libsfml-system.a -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 

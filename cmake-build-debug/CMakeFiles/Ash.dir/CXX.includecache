@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/Azide/Ash/src/bullet.cpp
+SFML/Graphics.hpp
+-
+bullet.h
+E:/Azide/Ash/src/bullet.h
+
+E:/Azide/Ash/src/bullet.h
+SFML/Graphics.hpp
+-
+

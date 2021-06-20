@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Ash"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\SFML-MinGW\;CMake Files\..\SFML-MinGW\lib\;CMake Files\..\SFML-MinGW\lib\cmake\;CMake Files\..\SFML-MinGW\lib\cmake\SFML\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="E:/Azide/Ash/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/Azide/mingw64/bin/mingw32-make.exe -f &quot;E:/Azide/Ash/cmake-build-release/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="E:/Azide/mingw64/bin/mingw32-make.exe -f &quot;E:/Azide/Ash/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/Azide/mingw64/bin/mingw32-make.exe -f &quot;E:/Azide/Ash/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/Azide/mingw64/bin/mingw32-make.exe -f &quot;E:/Azide/Ash/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Ash">
+				<Option output="E:/Azide/Ash/cmake-build-release/Ash.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Azide/Ash/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/Azide/SFML-MinGW/include"/>
+					<Add directory="E:\Azide\SFML-MinGW\include"/>
+					<Add directory="E:/Azide/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="E:/Azide/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="E:/Azide/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="E:/Azide/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="E:/Azide/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="E:/Azide/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/Azide/mingw64/bin/mingw32-make.exe -f &quot;E:/Azide/Ash/cmake-build-release/Makefile&quot;  VERBOSE=1 Ash"/>
+					<CompileFile command="E:/Azide/mingw64/bin/mingw32-make.exe -f &quot;E:/Azide/Ash/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/Azide/mingw64/bin/mingw32-make.exe -f &quot;E:/Azide/Ash/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/Azide/mingw64/bin/mingw32-make.exe -f &quot;E:/Azide/Ash/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Ash/fast">
+				<Option output="E:/Azide/Ash/cmake-build-release/Ash.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="E:/Azide/Ash/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="E:/Azide/SFML-MinGW/include"/>
+					<Add directory="E:\Azide\SFML-MinGW\include"/>
+					<Add directory="E:/Azide/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="E:/Azide/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="E:/Azide/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="E:/Azide/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="E:/Azide/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="E:/Azide/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="E:/Azide/mingw64/bin/mingw32-make.exe -f &quot;E:/Azide/Ash/cmake-build-release/Makefile&quot;  VERBOSE=1 Ash/fast"/>
+					<CompileFile command="E:/Azide/mingw64/bin/mingw32-make.exe -f &quot;E:/Azide/Ash/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/Azide/mingw64/bin/mingw32-make.exe -f &quot;E:/Azide/Ash/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/Azide/mingw64/bin/mingw32-make.exe -f &quot;E:/Azide/Ash/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="E:/Azide/Ash/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/Azide/mingw64/bin/mingw32-make.exe -f &quot;E:/Azide/Ash/cmake-build-release/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="E:/Azide/mingw64/bin/mingw32-make.exe -f &quot;E:/Azide/Ash/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/Azide/mingw64/bin/mingw32-make.exe -f &quot;E:/Azide/Ash/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/Azide/mingw64/bin/mingw32-make.exe -f &quot;E:/Azide/Ash/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="E:/Azide/Ash/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="E:/Azide/mingw64/bin/mingw32-make.exe -f &quot;E:/Azide/Ash/cmake-build-release/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="E:/Azide/mingw64/bin/mingw32-make.exe -f &quot;E:/Azide/Ash/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="E:/Azide/mingw64/bin/mingw32-make.exe -f &quot;E:/Azide/Ash/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="E:/Azide/mingw64/bin/mingw32-make.exe -f &quot;E:/Azide/Ash/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="E:/Azide/Ash/src/ash.cpp">
+			<Option target="Ash"/>
+		</Unit>
+		<Unit filename="E:/Azide/Ash/src/ash.h">
+			<Option target="Ash"/>
+		</Unit>
+		<Unit filename="E:/Azide/Ash/src/bullet.cpp">
+			<Option target="Ash"/>
+		</Unit>
+		<Unit filename="E:/Azide/Ash/src/bullet.h">
+			<Option target="Ash"/>
+		</Unit>
+		<Unit filename="E:/Azide/Ash/src/collision.cpp">
+			<Option target="Ash"/>
+		</Unit>
+		<Unit filename="E:/Azide/Ash/src/collision.h">
+			<Option target="Ash"/>
+		</Unit>
+		<Unit filename="E:/Azide/Ash/src/enemy.cpp">
+			<Option target="Ash"/>
+		</Unit>
+		<Unit filename="E:/Azide/Ash/src/enemy.h">
+			<Option target="Ash"/>
+		</Unit>
+		<Unit filename="E:/Azide/Ash/src/main.cpp">
+			<Option target="Ash"/>
+		</Unit>
+		<Unit filename="E:/Azide/Ash/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="E:/Azide/Ash/../SFML-MinGW/lib/cmake/SFML/SFMLConfig.cmake">
+			<Option virtualFolder="CMake Files\..\SFML-MinGW\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="E:/Azide/Ash/../SFML-MinGW/lib/cmake/SFML/SFMLConfigDependencies.cmake">
+			<Option virtualFolder="CMake Files\..\SFML-MinGW\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="E:/Azide/Ash/../SFML-MinGW/lib/cmake/SFML/SFMLConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\SFML-MinGW\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="E:/Azide/Ash/../SFML-MinGW/lib/cmake/SFML/SFMLSharedTargets-debug.cmake">
+			<Option virtualFolder="CMake Files\..\SFML-MinGW\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="E:/Azide/Ash/../SFML-MinGW/lib/cmake/SFML/SFMLSharedTargets-release.cmake">
+			<Option virtualFolder="CMake Files\..\SFML-MinGW\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="E:/Azide/Ash/../SFML-MinGW/lib/cmake/SFML/SFMLSharedTargets.cmake">
+			<Option virtualFolder="CMake Files\..\SFML-MinGW\lib\cmake\SFML\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
